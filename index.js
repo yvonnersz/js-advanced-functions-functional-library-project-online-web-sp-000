@@ -13,6 +13,7 @@ const fi = (function() {
     },
 
     map: function(collection, callback) {
+      let collectionValues = Object.values(collection)
 
     },
 
