@@ -5,10 +5,9 @@ const fi = (function() {
     },
 
     each: function(collection, callback) {
-      for (let element of collection) {
-        console.log(element)
+      for (let i = 0; i < collection.length; i++) {
+        collection[i]
       }
-      return collection
     },
 
     map: function() {
