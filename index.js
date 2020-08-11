@@ -8,7 +8,7 @@ const fi = (function() {
       let collectionValues = Object.values(collection)
 
       for (let i = 0; i < collectionValues.length; i++) {
-        collectionValues[i]
+        alert(collectionValues[i]);
       }
       return collection
     },
