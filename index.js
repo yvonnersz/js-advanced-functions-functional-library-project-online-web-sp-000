@@ -6,7 +6,7 @@ const fi = (function() {
 
     each: function(collection, callback) {
       console.log(collection)
-      return collection.forEach(element => console.log(element))
+      return collection.map(element => console.log(element))
     },
 
     map: function() {
