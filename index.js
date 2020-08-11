@@ -19,6 +19,7 @@ const fi = (function() {
       for (let i = 0; i < collectionValues.length; i++) {
         callback(collectionValues[i]*3, i, collectionValues)
       }
+      return collection;
     },
 
     reduce: function() {
