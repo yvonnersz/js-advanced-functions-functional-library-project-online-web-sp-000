@@ -5,6 +5,7 @@ const fi = (function() {
     },
 
     each: function(collection, callback) {
+      console.log(collection)
       collection.forEach(element => alert(`${element}`))
     },
 
