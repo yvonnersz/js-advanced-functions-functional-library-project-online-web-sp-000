@@ -5,12 +5,9 @@ const fi = (function() {
     },
 
     each: function(collection, callback) {
-      let collectionValues = Object.values(collection)
-
-      for (let i = 0; i < collectionValues.length; i++) {
-        alert(`${collectionValues[i]}`);
+      for (let element of collection) {
+        console.log(element)
       }
-      return collection
     },
 
     map: function() {
