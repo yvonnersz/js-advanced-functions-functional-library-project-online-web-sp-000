@@ -19,7 +19,7 @@ const fi = (function() {
 
       for (let i = 0; i < collectionValues.length; i++) {
         newValues.push(collectionValues[i]*3)
-        emptyArray.push(callback(newArray[i]))      
+        emptyArray.push(callback(newArray[i]))
       }
       return collection;
     },
