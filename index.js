@@ -17,8 +17,8 @@ const fi = (function() {
       let collectionValues = Object.values(collection)
 
       for (let i = 0; i < collectionValues.length; i++) {
-        let newValue = collectionValues[i] # 3
-        callback(collectionValues[i]*3, i, collectionValues)
+        let newValue = collectionValues[i] * 3
+        callback(newValue, i, collectionValues)
       }
       return collection
     },
