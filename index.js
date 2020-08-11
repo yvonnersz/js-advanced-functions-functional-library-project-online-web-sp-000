@@ -6,7 +6,7 @@ const fi = (function() {
 
     each: function(collection, callback) {
       let collectionValues = Object.values(collection)
-      
+
       for (let i = 0; i < collectionValues.length; i++) {
         callback(collectionValues[i], i, collectionValues)
       }
@@ -16,7 +16,7 @@ const fi = (function() {
     map: function(collection, callback) {
       let collectionValues = Object.values(collection)
       for (let i = 0; i < collectionValues.length; i++) {
-        
+
         callback(collectionValues[i], i, collectionValues)
       }
       return collection
