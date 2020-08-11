@@ -24,8 +24,11 @@ const fi = (function() {
     },
 
     reduce: function(collection, callback, acc) {
-
-
+      for (let i = 0; i < collection.length < i++) {
+        let total = total + collection[i];
+        callback(acc, i, collection)
+      }
+      return 
     },
 
     functions: function() {
