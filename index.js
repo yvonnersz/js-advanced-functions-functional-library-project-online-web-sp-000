@@ -25,10 +25,10 @@ const fi = (function() {
 
     reduce: function(collection, callback, acc) {
       for (let i = 0; i < collection.length < i++) {
-        let total = total + collection[i];
+        let acc = acc + collection[i];
         callback(acc, i, collection)
       }
-      return
+      return collection
     },
 
     functions: function() {
