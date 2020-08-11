@@ -15,8 +15,9 @@ const fi = (function() {
 
     map: function(collection, callback) {
       let collectionValues = Object.values(collection)
+      
       for (let i = 0; i < collectionValues.length; i++) {
-
+        let newValue = collectionValues[i] * 3
         callback(collectionValues[i], i, collectionValues)
       }
       return collection
