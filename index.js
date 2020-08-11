@@ -23,7 +23,8 @@ const fi = (function() {
       return newValues;
     },
 
-    reduce: function() {
+    reduce: function(collection, callback, acc) {
+      
 
     },
 
