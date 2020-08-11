@@ -5,7 +5,7 @@ const fi = (function() {
     },
 
     each: function(collection, callback) {
-      return collection.map(element => alert(`${element}`));
+      collection.map(element => alert(`${element}`));
     },
 
     map: function() {
