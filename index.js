@@ -5,7 +5,7 @@ const fi = (function() {
     },
 
     each: function(collection, callback) {
-      collectionValues = Object.values(collection)
+      let collectionValues = Object.values(collection)
 
       for (let i = 0; i < collectionValues.length; i++) {
         collectionValues[i]
