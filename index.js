@@ -24,7 +24,7 @@ const fi = (function() {
     },
 
     reduce: function(collection, callback, acc) {
-      
+
 
     },
 
