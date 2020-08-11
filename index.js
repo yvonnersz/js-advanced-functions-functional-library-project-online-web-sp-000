@@ -8,7 +8,7 @@ const fi = (function() {
       collectionValues = Object.values(collection)
 
       for (let i = 0; i < collectionValues.length; i++) {
-        console.log(collectionValues[i]);
+        collectionValues[i]
       }
       return collection
     },
