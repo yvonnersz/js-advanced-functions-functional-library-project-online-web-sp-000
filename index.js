@@ -6,7 +6,7 @@ const fi = (function() {
 
     each: function(collection, callback) {
       for (let i = 0; i < collection.length; i++) {
-        alert(`${collection[i]}`)
+        callback(collection[i], i, collection)
       }
       return collection
     },
