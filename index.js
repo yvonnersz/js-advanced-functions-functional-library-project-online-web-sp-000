@@ -6,6 +6,11 @@ const fi = (function() {
 
     each: function(collection, callback) {
       collectionValues = Object.values(collection)
+
+      for (let i = 0; i < collectionValues.length; i++) {
+        console.log(collectionValues[i]);
+      }
+      return collection
     },
 
     map: function() {
