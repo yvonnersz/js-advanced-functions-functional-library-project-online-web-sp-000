@@ -28,7 +28,7 @@ const fi = (function() {
         let total = total + collection[i];
         callback(acc, i, collection)
       }
-      return 
+      return
     },
 
     functions: function() {
