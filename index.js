@@ -12,7 +12,7 @@ const fi = (function() {
       return collection
     },
 
-    map: function() {
+    map: function(collection, callback) {
 
     },
 
