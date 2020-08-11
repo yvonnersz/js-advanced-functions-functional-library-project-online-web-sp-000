@@ -20,6 +20,7 @@ const fi = (function() {
       for (let i = 0; i < collectionValues.length; i++) {
         newValues.push(callback(collectionValues[i]))
       }
+      console.log(callback)
       return newValues;
     },
 
