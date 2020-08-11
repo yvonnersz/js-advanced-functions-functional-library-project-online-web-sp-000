@@ -18,7 +18,7 @@ const fi = (function() {
       let newValues = []
 
       for (let i = 0; i < collectionValues.length; i++) {
-        let newValue = collectionValues[i] * 3
+        let newValue .push(collectionValues[i] * 3)
         callback(newValue, i, collectionValues)
       }
       return collection
